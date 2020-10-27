@@ -1,5 +1,5 @@
 # calculator-js
-Calculator using JavaScript
+Calculator using JavaScript (https://kiiirtiiii.github.io/calculator-js/)
 
 
 ### Screenshots:
