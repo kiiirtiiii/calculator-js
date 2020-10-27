@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Calculator using JavaScript</title>
+    </head>
+    
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td colspan="4"> <input disabled type="text" id="result" value="0"> </td>
+                </tr>
+
+                <tr>
+                    <td><button class="num-btn" onclick="clac('1')">1</button></td>
+                    <td><button class="num-btn" onclick="clac('2')">2</button></td>
+                    <td><button class="num-btn" onclick="clac('3')">3</button></td>
+                    <td><button class="opr-btn" onclick="clac('/')">/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="num-btn" onclick="clac('4')">4</button></td>
+                    <td><button class="num-btn" onclick="clac('5')">5</button></td>
+                    <td><button class="num-btn" onclick="clac('6')">6</button></td>
+                    <td><button class="opr-btn" onclick="clac('*')">*</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="num-btn" onclick="clac('7')">7</button></td>
+                    <td><button class="num-btn" onclick="clac('8')">8</button></td>
+                    <td><button class="num-btn" onclick="clac('9')">9</button></td>
+                    <td><button class="opr-btn" onclick="clac('-')">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="opr-btn" onclick="clac('.')">.</button></td>
+                    <td><button class="num-btn" onclick="clac('0')">0</button></td>
+                    <td><button class="opr-btn" onclick="clac('%')">%</button></td>
+                    <td><button class="opr-btn" onclick="clac('+')">+</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button class="big-btn" onclick="clr()">AC</button></td>
+                    <td colspan="2"><button class="big-btn" onclick="solve()">=</button></td>
+                </tr>           
+            </table>
+        </div>
+
+        <script type="text/javascript" src="calculator.js"></script>
+    </body>
+</html>
