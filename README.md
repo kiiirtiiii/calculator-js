@@ -1,5 +1,7 @@
 # calculator-js
-Calculator using JavaScript (https://kiiirtiiii.github.io/calculator-js/)
+Calculator using JavaScript 
+
+> [Click to see project](https://kiiirtiiii.github.io/calculator-js/)
 
 
 ### Screenshots:
